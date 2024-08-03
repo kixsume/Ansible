@@ -1,5 +1,5 @@
 - name: Update Windows & Ubuntu Servers
-  hosts: admin-servers
+  hosts: all
   tasks:
     - name: Gather facts
       ansible.builtin.setup:
